@@ -1,0 +1,292 @@
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+header {
+    position: fixed;
+    /* Set the heading to fixed position */
+    top: 0;
+
+}
+
+.header {
+
+    padding: 15px 40px;
+    margin: 15px 36px;
+    display: flex;
+    position: fixed;
+    /* Set the heading to fixed position */
+    top: 0;
+    left: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    padding-bottom: 1px;
+    z-index: 9999;
+}
+
+.img {
+    width: 150px;
+    height: 25px;
+}
+
+.form-inline {
+    margin-left: 20px;
+}
+
+input[search] :hover {
+    border: none;
+
+}
+
+.btn {
+    background-color: #0076c9;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+
+.btnn {
+    background-color: rgb(245, 92, 37);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.topnav {
+    margin-left: 90px;
+}
+
+.topnav a {
+    float: left;
+    margin-top: 100px;
+    display: block;
+    color: #2e2d2d;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    padding: 14px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    /* background-color: rgb(242, 249, 254); */
+}
+.topnav a.active{
+    border-bottom: 3px solid rgb(47, 134, 240);
+    color: #017ef3;
+}
+.topnav a:hover {
+    border-bottom: 4px solid rgb(108, 106, 106);
+}
+
+.topnav a:active {
+    border-bottom: 3px solid rgb(47, 134, 240);
+    color: #017ef3;
+}
+
+.container {
+    background-color: white;
+    margin-top: 170px;
+    margin-left: 0%; 
+    width: 100%;
+    display: block;
+
+}
+.about{
+    border-bottom: rgb(108, 106, 106);
+    box-shadow: 1px 0px 2px 0px #888;
+    width: 97vw;
+    height: 50px;
+    padding: 15px 5px;   
+}
+.p{
+    border-bottom: rgb(108, 106, 106);
+}
+p{
+    padding-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 15px 17px ;
+    border-radius: 15px;
+}
+.badge{
+    border: 1px solid #f5a623;
+    color: #f5a623;
+    background-color: rgb(250, 233, 210);
+    height: 25px;
+    width: 50px;
+    padding: 5px 5px;
+}
+
+
+
+
+
+
+.box{
+    display: block;
+    margin-left: 64px;
+}
+.containers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mark {
+    width: 150px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 5px 0px 3px 3px #b9b9b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.details {
+    width: 200px;
+    margin-right: 20px;
+    line-height: 0px;
+}
+
+.details h6 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+.status {
+    width: 150px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.status .live {
+    margin-top: 20px;
+    color: #41b65c;
+    font-weight: 600;
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+
+.status .expired {
+    color: red;
+    margin-top: 0%;
+}
+.status p{
+    line-height: 0;
+    font-size: 12px;
+}
+
+.class {
+    width: 250px;
+    margin-top: 5px; 
+    margin-bottom: 0%;
+}
+
+.class p{
+    font-weight: 300;
+    color: #363636;
+    
+}
+
+.arey{
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cec9c9;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+footer {
+    height: auto;
+    color: black;
+    background-color: rgb(242, 249, 252);
+    width: 97vw;
+
+}
+
+.mainbox {
+    height: 40vh;
+    padding: 45px;
+    display: flex;
+    gap: 400px;
+}
+
+.boox {
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    padding: 23px;
+    font-weight: 400;
+}
+
+.rbox {
+    width: 600px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.rbox h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tbox {
+    display: flex;
+    gap: 90px;
+    height: 40vh;
+    width: 30vw;
+}
+
+.box0 h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.gbox a {
+    color: black;
+    text-decoration: underline;
+}
+
+.gbox a:hover {
+    text-decoration: none;
+    color: rgb(233, 19, 19);
+}
+
+.sticky {
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px 170px;
+    margin: 5px 200px;
+    color: white;
+    background-color: transparent;
+}
